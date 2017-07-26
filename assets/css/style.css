@@ -1,0 +1,14 @@
+body {
+	background: White;
+}
+
+h1 {
+	color: black;
+	font-family: 'Indie Flower', Times, Times New Roman, serif;
+	font-size: 28px;
+	padding: 5px;
+}
+
+.container {
+	text-align: center;
+}
