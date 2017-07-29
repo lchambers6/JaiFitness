@@ -1,9 +1,9 @@
 body {
-	background: White;
+	background: #F3E8EE;
 }
 
 h1 {
-	color: black;
+	color: #483A58;
 	font-family: 'Indie Flower', Times, Times New Roman, serif;
 	font-size: 28px;
 	padding: 5px;
@@ -12,3 +12,32 @@ h1 {
 .container {
 	text-align: center;
 }
+
+.navbar {
+  background: #483A58;
+}
+
+.navbar .nav > li > a {
+    color: white;
+    font-family: 'Indie Flower', Times, Times New Roman, serif;
+    font-size: 20px;
+}
+
+.icon-header h1 {
+  color: white;
+  font-family: 'Indie Flower', Times, Times New Roman, serif;
+  background: #475B63;
+  margin: 0px;
+  font-size: 16px;
+}
+
+.icon-header a:link, a:visited, a:hover, a:active {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: white;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
