@@ -41,3 +41,17 @@ h1 {
     text-decoration: underline;
 }
 
+#photo {
+	float:left;
+  margin: 5vw;
+  margin-left: 0px;
+}
+
+#descriptText {
+  padding-top: 5vw;
+  text-align: left;
+}
+
+#headerImage {
+  padding-bottom: 5vh;
+}
