@@ -10,6 +10,12 @@ h1 {
   font-weight: bold;
 }
 
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
 h4 {
   font-size: 12px;
 }
@@ -49,8 +55,6 @@ h4 {
 .icon-header img {
   padding: 3px;
 }
-
-
 
 .icon-header a:link, a:visited, a:hover, a:active {
   color: #F0F7F4;
