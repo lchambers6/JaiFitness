@@ -1,57 +1,89 @@
 body {
-	background: #F3E8EE;
+	background: #F0F7F4;
 }
 
 h1 {
-	color: #483A58;
-	font-family: 'Indie Flower', Times, Times New Roman, serif;
+	color: #8B728E;
+	font-family: Arial, Times, Times New Roman, serif;
 	font-size: 28px;
-	padding: 5px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 12px;
+}
+
+#mainBody {
+  margin-top: 60px;
 }
 
 .container {
-	text-align: center;
+  text-align: left;
 }
 
 .navbar {
-  background: #483A58;
+  background: #BE95C4;
+  position: fixed;
+  width: 100%;
+  border-bottom: 3px solid #8B728E;
 }
 
 .navbar .nav > li > a {
-    color: white;
-    font-family: 'Indie Flower', Times, Times New Roman, serif;
-    font-size: 20px;
+  color: #F0F7F4;
+  font-family: Arial, Times, Times New Roman, serif;
+  font-size: 18px;
+  top: 15px;
 }
-
+  
 .icon-header h1 {
-  color: white;
-  font-family: 'Indie Flower', Times, Times New Roman, serif;
-  background: #475B63;
+  color: #F0F7F4;
+  font-family: Arial, Times, Times New Roman, serif;
   margin: 0px;
   font-size: 16px;
+  position: fixed;
+  width: 100%;
+  top: 14px;
 }
 
+.icon-header img {
+  padding: 3px;
+}
+
+
+
 .icon-header a:link, a:visited, a:hover, a:active {
-  color: white;
+  color: #F0F7F4;
+  top: 12px;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: white;
-    font-size: 22px;
-    text-decoration: underline;
+  color: #F0F7F4;
+  top: 12px;
 }
 
 #photo {
 	float:left;
-  margin: 5vw;
-  margin-left: 0px;
+  margin: 3vw 15px 5px 0px;
 }
 
 #descriptText {
-  padding-top: 5vw;
+  padding-top: 3vw;
   text-align: left;
 }
 
 #headerImage {
   padding-bottom: 5vh;
+}
+
+#footer {
+	clear: both;
+	background-color: #BE95C4;
+	text-align: center;
+	width:100%;
+	padding: 10px 0px 10px 0px;
+	border-top: 3px solid #8B728E;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #F0F7F4;
+  margin-top: 15px;
 }
