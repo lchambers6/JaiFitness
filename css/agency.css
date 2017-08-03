@@ -625,6 +625,22 @@ footer ul.quicklinks {
   text-transform: uppercase;
   text-transform: none;
 }
+ul.miniSocial-buttons {
+  margin-bottom: 0;
+}
+ul.miniSocial-buttons li a {
+  display: block;
+  font-size: 24px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+ul.miniSocial-buttons li a:hover {
+  color: #8B728E;
+}
 ul.social-buttons {
   margin-bottom: 0;
 }
@@ -633,7 +649,7 @@ ul.social-buttons li a {
   background-color: #222222;
   height: 40px;
   width: 40px;
-  border-radius: 100%;
+  border-radius: 15%;
   font-size: 20px;
   line-height: 40px;
   color: white;
@@ -642,9 +658,7 @@ ul.social-buttons li a {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
-ul.social-buttons li a:hover,
-ul.social-buttons li a:focus,
-ul.social-buttons li a:active {
+ul.social-buttons li a:hover {
   background-color: #8B728E;
 }
 .btn:focus,
@@ -743,4 +757,7 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #8B728E;
+}
+.fa-stack-1x {
+  top: -5px;
 }
