@@ -31,12 +31,11 @@
     })
 
     //Cycles through the heading titles 
-    var serviceArray = ["Training", "Yoga", "Meditating"],
+    var serviceArray = ['<a href="https://www.google.com/" target="_blank">Training</a>', '<a href="https://www.facebook.com/" target="_blank">Yoga</a>', '<a href="http://www.bing.com/" target="_blank">Meditating</a>'],
         i = -1;
     (function f() {
         i = (i + 1) % serviceArray.length;
-        $("#movingHeader").html("Let's Start " + serviceArray[i]);
+        $("#movingHeader").html(serviceArray[i]);
         setTimeout(f, 3500);
     })();
 })(jQuery); // End of use strict
-

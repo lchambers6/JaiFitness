@@ -252,13 +252,24 @@ header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 50px;
-  line-height: 50px;
+  font-size: 40px;
+  line-height: 40px;
   margin-bottom: 25px;
 }
+#movingHeader {
+  font-size: 50px;
+}
+#movingHeader a{
+   color: white;
+}
+#movingHeader a:hover {
+  color: #8B728E;
+  text-decoration: none;
+}
+
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 300px;
+    padding-top: 200px;
     padding-bottom: 200px;
   }
   header .intro-text .intro-lead-in {
@@ -272,10 +283,22 @@ header .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 75px;
-    line-height: 75px;
+    font-size: 65px;
+    line-height: 50px;
     margin-bottom: 50px;
   }
+  #movingHeader {
+  font-size: 75px;
+  color: white;
+  }
+  #movingHeader a{
+   color: white;
+  }
+  #movingHeader a:hover {
+  color: #8B728E;
+  text-decoration: none;
+}
+
 }
 section {
   padding: 100px 0;
