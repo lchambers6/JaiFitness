@@ -576,9 +576,13 @@ section h3.section-subheading {
 aside.clients img {
   margin: 50px auto;
 }
+#contact h3 {
+  color: white;
+  margin: 3px;
+}
 section#contact {
   background-color: #222222;
-  background-image: url('../img/map-image.png');
+  background-image: url('../img/circuit-board.png');
   background-position: center;
   background-repeat: no-repeat;
 }
