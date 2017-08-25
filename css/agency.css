@@ -788,3 +788,18 @@ body {
 .fa-stack-1x {
   top: -5px;
 }
+
+#servicesSubsection {
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+#servicesSection {
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+#servicesTop {
+  padding-top: 120px;
+  padding-bottom: 0px;
+}
