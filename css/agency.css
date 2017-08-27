@@ -789,17 +789,31 @@ body {
   top: -5px;
 }
 
-#servicesSubsection {
+.servicesSubsection {
   padding-top: 5px;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 
-#servicesSection {
+.servicesSection {
   padding-top: 20px;
   padding-bottom: 0px;
 }
 
-#servicesTop {
+.servicesTop {
   padding-top: 120px;
-  padding-bottom: 0px;
+  padding-bottom: 15px;
+}
+
+#chevron {
+  margin-left: 8px;
+}
+
+#dumbbellIcon img:hover{
+  margin-bottom: 8px;
+}
+#yogaIcon img:hover{
+  margin-bottom: 8px;
+}
+#brainIcon img:hover{
+  margin-bottom: 8px;
 }

@@ -31,7 +31,7 @@
     })
 
     //Cycles through the heading titles 
-    var serviceArray = ['<a href="https://www.google.com/" target="_blank">Training</a>', '<a href="https://www.facebook.com/" target="_blank">Yoga</a>', '<a href="http://www.bing.com/" target="_blank">Meditating</a>'],
+    var serviceArray = ['<a href="services.html#personalTraining" target="_blank">Training</a>', '<a href="services.html#yoga" target="_blank">Yoga</a>', '<a href="services.html#meditation" target="_blank">Meditating</a>'],
         i = -1;
     (function f() {
         i = (i + 1) % serviceArray.length;
