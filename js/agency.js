@@ -30,9 +30,15 @@
         }
     })
 
-    //Cycles through the heading titles 
-    var serviceArray = ['<a href="services.html#personalTraining" target="_blank">Training</a>', '<a href="services.html#yoga" target="_blank">Yoga</a>', '<a href="services.html#meditation" target="_blank">Meditating</a>'],
-        i = -1;
+    //Before noon it says good morning, after noon it says welcome
+    var currentTime = new Date();
+    var hours = currentTime.getHours();
+    if (hours <= 12) {
+        $("#greeting").html("Good Morning!");
+    }
+    //Cycles through the heading titles
+    var serviceArray = ['training', 'yoga', 'meditation', 'hiking', 'restoring', 'achieving', 'lifting', 'walking', 'resting', 'running', 'playing', 'feeling', 'sweating', 'pushing', 'pulling', 'jumping', 'swimming', 'climbing', 'exercising', 'stretching', 'loving'],
+    i = -1;
     (function f() {
         i = (i + 1) % serviceArray.length;
         $("#movingHeader").html(serviceArray[i]);
