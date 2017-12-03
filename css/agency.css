@@ -582,6 +582,13 @@ aside.clients img {
   color: white;
   margin: 3px;
 }
+@media (max-width: 768px) {
+  #contact h3 {
+    color: white;
+    margin: 3px;
+    font-size: 100%;
+  }
+}
 section#contact {
   background-color: #222222;
   background-image: url('../img/circuit-board.png');
