@@ -578,15 +578,25 @@ section h3.section-subheading {
 aside.clients img {
   margin: 50px auto;
 }
+
+#contact {
+  padding-top: 225px;
+  padding-bottom: 225px;
+}
 #contact h3 {
   color: white;
   margin: 3px;
+  padding-bottom: 10px;
 }
 @media (max-width: 768px) {
   #contact h3 {
     color: white;
     margin: 3px;
     font-size: 100%;
+  }
+  #contact {
+    padding-top: 125px;
+    padding-bottom: 125px;
   }
 }
 section#contact {
