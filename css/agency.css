@@ -836,3 +836,16 @@ body {
 #brainIcon img:hover{
   margin-bottom: 8px;
 }
+#headShot {
+  margin: 25px 25px 25px 0px;
+  padding: 0px;
+}
+@media (max-width: 768px) {
+  #headShot {
+    margin: 25px 0px 25px 0px;
+    padding: 0px;
+  }
+}
+#summaryInfo{
+  margin-bottom:35px;
+}
