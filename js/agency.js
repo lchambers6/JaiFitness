@@ -42,6 +42,6 @@
     (function f() {
         i = (i + 1) % serviceArray.length;
         $("#movingHeader").html(serviceArray[i]);
-        setTimeout(f, 3500);
+        setTimeout(f, 2000);
     })();
 })(jQuery); // End of use strict
