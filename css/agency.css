@@ -200,6 +200,14 @@ fieldset[disabled] .btn-xl.active {
 #meetDescription {
   margin: 15px;
 }
+#headSubtitles {
+  font-size: 20px;
+  line-height: 25px;
+}
+.footnote {
+  line-height: 16px;
+  font-size: 14
+}
 @media (min-width: 768px) {
   .navbar-custom {
     background-color: transparent;
@@ -846,6 +854,9 @@ body {
   #headShot {
     margin: 25px 0px 25px 0px;
     padding: 0px;
+  }
+  h1 {
+    font-size: 30px;
   }
 }
 #summaryInfo{
